@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "yaml-data"
+version = "0.1.0"
+description = ""
+authors = ["mleader <mleader@redhat.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.1.1"
+pyaml = "^20.4.0"
+jupyter = "^1.0.0"
+elasticsearch = "^7.9.1"
+elasticsearch_dsl = "^7.2.1"
+pandasticsearch = "0.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
